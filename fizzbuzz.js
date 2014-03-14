@@ -3,7 +3,7 @@ function fizzbuzz(lowerBound, upperBound) {
     var i, a, b;
     for (i=lowerBound; i<= upperBound; i++) {
         a = (i % 3 == 0);
-        b = (i % 5 == 0)
+        b = (i % 5 == 0);
         if (a)       str += "Fizz";
         if (b)       str += "Buzz";
         if (!(a||b)) str += i;
