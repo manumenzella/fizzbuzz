@@ -50,3 +50,5 @@ function fizzbuzz(lowerBound, upperBound, divA, divB, strA, strB) {
 
 alert( fizzbuzz(1, 20, 2, 4, "Taylor", "Swift") );       // Call with all parameters to persist them.
 alert( fizzbuzz(null, null, null, null, "Foo", "Bar") ); // Change some parameters, retrieve others from storage.
+
+// WHOO HOO!
